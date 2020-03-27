@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CodeVerifyEditText">
+        <attr name="cvedt_text" format="string" />
+        <attr name="cvedt_textSize" format="dimension" />
+        <attr name="cvedt_textInactiveColor" format="color" />
+        <attr name="cvedt_textActiveColor" format="color" />
+        <attr name="cvedt_textStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+            <enum name="bold" value="2" />
+        </attr>
+        <attr name="cvedt_maxLength" format="integer" />
+        <attr name="cvedt_lineHeight" format="dimension" />
+        <attr name="cvedt_lineMarginTop" format="dimension" />
+        <attr name="cvedt_lineWidth" format="dimension" />
+        <attr name="cvedt_lineInactiveColor" format="color" />
+        <attr name="cvedt_lineActiveColor" format="color" />
+        <attr name="cvedt_onlyShownLine" format="boolean" />
+    </declare-styleable>
+</resources>
