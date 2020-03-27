@@ -11,8 +11,7 @@ implementation 'cn.yuxirey.codeverifyedittext:codeverifyeditext:1.0.0'
 ```
 
 2. Use it just like an EditText ;P
-
-# Attributes
+## Attributes
 
 | Name                    | Descriptions                                                                                                            |   Default    |
 | :---------------------- | :---------------------------------------------------------------------------------------------------------------------- | :----------: |
@@ -30,3 +29,8 @@ implementation 'cn.yuxirey.codeverifyedittext:codeverifyeditext:1.0.0'
 | cvedt_onlyShownLine     | If set to true, only the underline with numbers will be displayed                                                       |    false     |
 
 It can also be set in code.
+
+## Callback
+
+You can "listen" if the verification code has been entered by setting an `OnCompleteListener`. Just simply call the `setOnCompleteListener(OnCompleteListener listener)` method and handle your own code in callback method `void onComplete(String code)`.
+
