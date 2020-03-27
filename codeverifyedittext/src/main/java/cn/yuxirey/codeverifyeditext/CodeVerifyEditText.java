@@ -89,7 +89,7 @@ public class CodeVerifyEditText extends View {
         if (!TextUtils.isEmpty(mCodeStr) && mCodeStr.length() > mMaxLength) {
             mCodeStr = mCodeStr.substring(0, mMaxLength);
         }
-        mTextSize = typedArray.getDimensionPixelSize(R.styleable.CodeVerifyEditText_cvedt_textSize, 14);
+        mTextSize = typedArray.getDimensionPixelSize(R.styleable.CodeVerifyEditText_cvedt_textSize, toPx(30));
         mTextInactiveColor = typedArray.getColor(R.styleable.CodeVerifyEditText_cvedt_textInactiveColor, DEFAULT_INACTIVE_COLOR);
         mTextActiveColor = typedArray.getColor(R.styleable.CodeVerifyEditText_cvedt_textActiveColor, DEFAULT_ACTIVE_COLOR);
         mLineInactiveColor = typedArray.getColor(R.styleable.CodeVerifyEditText_cvedt_lineInactiveColor, DEFAULT_INACTIVE_COLOR);
