@@ -11,7 +11,10 @@ implementation 'cn.yuxirey.codeverifyedittext:codeverifyeditext:1.0.0'
 ```
 
 2. Use it just like an EditText ;P
+<<<<<<< HEAD
 
+=======
+>>>>>>> d687d760c1c2acf0d2c433067c16da264b103e96
 ## Attributes
 
 | Name                    | Descriptions                                                                                                            |   Default    |
@@ -34,3 +37,7 @@ It can also be set in code.
 ## Callback
 
 You can "listen" if the verification code has been entered by setting an `OnCompleteListener`. Just simply call the `setOnCompleteListener(OnCompleteListener listener)` method and handle your own code in callback method `void onComplete(String code)`.
+<<<<<<< HEAD
+=======
+
+>>>>>>> d687d760c1c2acf0d2c433067c16da264b103e96
