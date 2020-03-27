@@ -7,7 +7,7 @@ A editor for entering verification codes.
 1. Add the following code to the gradle file of your project module:
 
 ```Gradle
-implementation 'cn.yuxirey.codeverifyedittext:codeverifyeditext:1.0.0'
+implementation 'cn.yuxirey.codeverifyedittext:codeverifyeditext:1.0.1'
 ```
 
 2. Use it just like an EditText ;P
