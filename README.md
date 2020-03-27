@@ -1,4 +1,4 @@
-# CodeVerifyEditText
+# CodeVerifyEditText [ ![Download](https://api.bintray.com/packages/reyuxi/AndroidUILibrary/CodeVerifyEditText/images/download.svg?version=1.0.1) ](https://bintray.com/reyuxi/AndroidUILibrary/CodeVerifyEditText/1.0.1/link)
 
 A editor for entering verification codes.
 
